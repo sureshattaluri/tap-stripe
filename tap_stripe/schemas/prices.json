@@ -1,0 +1,64 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "object": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },        
+    "active": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "billing_scheme": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },                
+    "created": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "currency": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },              
+    "livemode": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "product": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },              
+    "metadata": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {}
+    }
+  }
+}

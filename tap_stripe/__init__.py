@@ -48,6 +48,7 @@ STREAM_SDK_OBJECTS = {
     'payout_transactions': {'sdk_object': stripe.BalanceTransaction, 'key_properties': ['id']},
     'disputes': {'sdk_object': stripe.Dispute, 'key_properties': ['id']},
     'products': {'sdk_object': stripe.Product, 'key_properties': ['id']},
+    'prices': {'sdk_object': stripe.Price, 'key_properties': ['id']},
 }
 
 # I think this can be merged into the above structure
@@ -71,6 +72,7 @@ STREAM_REPLICATION_KEY = {
     #'invoice_line_items': 'date'
     'disputes': 'created',
     'products': 'created',
+    "prices": 'created',
 }
 
 STREAM_TO_TYPE_FILTER = {
